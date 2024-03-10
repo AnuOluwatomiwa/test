@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "axios": "^1.6.7",
-    "proxy": "http://localhost:5000",
-    "start": "react-scripts start"
+    "proxy": "http://localhost:5000"
   },
     "scripts": {
+    "start": "react-scripts start",
     "start-backend": "cd backend && /Users/mac/test/backend/env/bin/flask run --no-debugger",
     "build": "react-scripts build",
     "test": "react-scripts test",
